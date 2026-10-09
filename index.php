@@ -106,8 +106,8 @@ function e($s) { return htmlspecialchars($s ?? '', ENT_QUOTES, 'UTF-8'); }
     max-width:380px;
     margin:0 auto;
     padding:28px 24px 24px;
-    /* dorong konten ke area tengah-atas yang kosong */
-    padding-top:clamp(24px, 6vh, 52px);
+    /* dorong konten ke bawah */
+    padding-top:clamp(70px, 14vh, 130px);
   }
   .logos {
     display:flex; align-items:center; justify-content:center;
@@ -183,7 +183,7 @@ function e($s) { return htmlspecialchars($s ?? '', ENT_QUOTES, 'UTF-8'); }
       background-position:50% 50%;
       background-size:cover;
     }
-    .form-wrap { padding-top:max(28px, env(safe-area-inset-top)); padding-bottom:max(24px, env(safe-area-inset-bottom)); }
+    .form-wrap { padding-top:max(90px, env(safe-area-inset-top)); padding-bottom:max(24px, env(safe-area-inset-bottom)); }
   }
 </style>
 </head>
