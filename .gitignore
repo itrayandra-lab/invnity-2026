@@ -1,0 +1,7 @@
+# Data pengunjung (privasi, jangan di-push)
+data.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
